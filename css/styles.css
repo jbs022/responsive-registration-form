@@ -63,9 +63,14 @@ fieldset {
 }
 
 .newsletter {
+	margin: 3em 0;
 	padding: 1.5em;
 	background-color: #fffee8;
 	border-radius: 8px;
+}
+
+.newsletter fieldset {
+	margin: 1em 0;
 }
 
 .input-field,
@@ -79,12 +84,12 @@ fieldset {
 }
 
 .select-field::after {
-	content: "\f078";
+	content: "\f0dd";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	color: #2d3945;
 	right: 18px;
-	top: 65px;
+	top: 62.5px;
 	position: absolute;
 	pointer-events: none;
 }
@@ -251,7 +256,7 @@ textarea {
 	}
 	
 	.select-field::after {
-		top: 18px;
+		top: 16px;
 	}
 	
 	input[id="zip"] {
